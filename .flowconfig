@@ -1,0 +1,17 @@
+[ignore]
+.*/dist/.*
+
+[include]
+src
+
+[libs]
+
+[lints]
+
+[options]
+module.system.node.resolve_dirname=node_modules
+module.system.node.resolve_dirname=src
+module.system.node.resolve_dirname=src/ui
+module.system.node.resolve_dirname=src/utils
+module.system.node.resolve_dirname=src/helpers
+module.system.node.resolve_dirname=src/flow
